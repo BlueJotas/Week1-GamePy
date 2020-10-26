@@ -1,6 +1,6 @@
 import sys
 
-abc = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+abc = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' # There's no list in Python containing only the spanish alphabet, so we have to create a string with all the spanish characters
 message = str(input("Type a message to encode: "))
 message = message.replace(' ', '').upper()	 # This stores the input message altogether (upper case)
 original_key = str(input("Type a keyword: "))
