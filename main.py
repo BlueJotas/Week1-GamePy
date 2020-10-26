@@ -15,7 +15,7 @@ if len(message) > len(original_key):	# If the lenght of the message is longer th
 	key += original_key[:len(message) % len(original_key)]
 
 elif len(message) < len(original_key):	# If the lenght of the message is shorter than the lenght of the original key...
-	key = original_key[:len(message)]	# Same process but this time the key gets shoter
+	key = original_key[:len(message)]	# Same process but this time the key gets shorter
 
 elif len(message) == len(original_key):	 # If both are the same lenght...
 	key = original_key	# The key is stored here
